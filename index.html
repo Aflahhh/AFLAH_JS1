@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Program Menentukan Grade</title>
+  </head>
+  <body>
+    <section class="satu">
+      <h1>program dengan menggunakan if, else, nested if, dan juga function</h1>
+      <h2>Masukkan Nilai</h2>
+      <input type="number" id="inputNilai" placeholder="Masukkan nilai" />
+      <button onclick="tampilkanGrade()">Tampilkan Grade</button>
+      <p id="hasilGrade"></p>
+    </section>
+
+    <section class="dua">
+      <h1>Pilih Operasi Matematika</h1>
+      <select id="pilihanOperasi">
+        <option value="tambah">Tambah</option>
+        <option value="kurang">Kurang</option>
+        <option value="kali">Kali</option>
+        <option value="bagi">Bagi</option>
+      </select>
+      <br />
+      <input type="number" id="angka1" placeholder="Masukkan angka pertama" />
+      <input type="number" id="angka2" placeholder="Masukkan angka kedua" />
+      <button onclick="hitung()">Hitung</button>
+      <p id="hasilPerhitungan"></p>
+    </section>
+
+    <section class="tiga">
+      <h1>Hasil Iterasi dengan For</h1>
+      <ul id="hasilIterasi"></ul>
+    </section>
+
+    <section class="tiga">
+      <h1>Hasil Iterasi dengan While</h1>
+      <ul id="hasilIterasiWhile"></ul>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
